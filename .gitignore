@@ -1,0 +1,49 @@
+# Go build files
+bin/
+build/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go cache
+/pkg/
+/vendor/
+/dist/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.iml
+
+# Logs
+*.log
+
+# OS junk files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.production
+
+# Firebase secrets
+serviceAccountKey.json
+firebase-adminsdk.json
+*.p8
+
+# Credentials / API keys
+*.key
+*.pem
+*.crt
+
+# Temporary files
+tmp/
+*.tmp
+*.cache
+
+# Modules (optional)
+go.sum
